@@ -9,7 +9,7 @@ export default function Navbar(): JSX.Element {
 
     return (
         <>
-            <nav className="h-[70px] bg-red-400 grid md:gap-4 md:grid-cols-3 grid-cols-1 grid-rows-1 font-barlow">
+            <nav className="h-[70px] bg-red-500 grid md:gap-4 md:grid-cols-3 grid-cols-1 grid-rows-1 font-barlow">
                 <div className="w-[70px] justify-center items-center ml-40 hidden md:flex">
                     <button
                         className={`outline-none ${hoverButtonEffect} w-[35px] h-[35px] rotate-90  rounded-md flex justify-center items-center`}
